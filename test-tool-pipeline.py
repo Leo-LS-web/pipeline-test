@@ -29,7 +29,7 @@ class Pipeline(FunctionCallingBlueprint):
 
             try:
                 result = eval(equation)
-                return f"{equation} = {result}"
+                return f"{equation} = {result} GUARDA CHE BELLA ROBETAH EH"
             except Exception as e:
                 print(e)
                 return "Invalid equation"
